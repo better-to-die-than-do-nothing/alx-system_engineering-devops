@@ -1,2 +1,2 @@
-#!/bin/bach
-rmdir /tmp/my_first_directory/betty
+#!/bin/bash
+rmdir betty  /tmp/my_first_directory/betty
