@@ -3,15 +3,12 @@
 A=0
 while [ $A -lt 10 ];
    do
-	if [ $A -lt 8 ]
-	then
-		echo "Best School"
-	elif [ $A -eq 8 ]
+	echo "Best School"
+
+	if [ $A -eq 8 ]
 	then	
 		echo "Best School"
 		echo "Hi"
-	else
-		echo "Best School"
 	fi
 	A=$((A+1))
 done
