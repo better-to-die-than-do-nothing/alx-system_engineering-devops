@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#that scripte prints 9 best school and 1 hi and another best school
+A=0
+while [ $A -lt 10 ];
+   do
+	if [ $A -lt 8 ]
+	then
+		echo "Best School"
+	elif [ $A -eq 8 ]
+	then	
+		echo "Best School"
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	A=$((A+1))
+done
