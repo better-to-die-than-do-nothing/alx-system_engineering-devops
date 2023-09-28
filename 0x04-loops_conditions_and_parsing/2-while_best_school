@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# thet scripte uses the while loop to print Best School on the screan
+
+A=0
+while [ $A -lt 10 ];
+   do 
+	echo "Best School"
+	((A++))
+done
