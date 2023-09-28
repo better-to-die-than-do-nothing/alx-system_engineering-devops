@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#that is a bash scripte uses until loop to print best school 10 times
+
+A=0
+until [ $A == 10 ];
+    do 
+	echo "Best School"
+	A=$((A+1))
+done
