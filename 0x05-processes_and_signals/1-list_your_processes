@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# that scripte liste the prossecces
+ps -auxf
