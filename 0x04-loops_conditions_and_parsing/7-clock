@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# that scripte prints the 59 mins
+# and 12 hours
+# using while loop 
+# i'm going to use case statement to print the 59 min and at the 60 min i'm going to print hour: 0
+# after the it will print 12 hours
+A=0
+while [ $A -le 60 ];
+   do 
+	case $A in
+	 0)
+	   echo "Hour: $A" ;;
+	 60)
+	   echo "Hour: 1" ;;
+	 *)
+	   echo "$A" ;;
+	esac
+   A=$((A+1))
+done
+A=1
+while [ $A -le 12 ];
+   do
+	echo "$A"
+	A=$((A+1))
+done
