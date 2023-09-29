@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# that scripte prints the numbers from 1 to 20 using while loops 
+# and it uses the case statement 
+A=0
+while [ $A -lt 20 ];
+do
+A=$((A+1))
+case $A in
+5)
+echo "bad luck from China" ;;
+10)
+echo "bad luck from Japan" ;;
+18)
+echo "bad luck from Italy" ;;
+*)
+echo "$A" ;;
+esac
+done
