@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#that scripte is going to print fizz if a number is multiplier of number 3
+# and buzz if a number is a multiplier of number 5
+A=1
+for i in {1..100}; do
+	if (( A % 3 == 0)); then
+		echo "fizz"
+	elif (( A % 5 == 0)); then
+		echo "buzz"
+	else
+		echo "$A"
+	fi
+	A=$((A+1))
+done
