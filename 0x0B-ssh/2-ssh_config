@@ -1,0 +1,8 @@
+# ~/.ssh/config
+
+
+Host school 
+	Hostname 38ab55d5ff56
+	User nubuntu
+	PasswordAuthentication no
+	IdentityFile ~/.ssh/school
